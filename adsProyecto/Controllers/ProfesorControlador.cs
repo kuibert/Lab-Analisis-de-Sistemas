@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace adsProyecto.Controllers
 {
+    [Route("api/profesores/")]
     public class ProfesorControlador : ControllerBase
     {
         private readonly IProfesor profesor;

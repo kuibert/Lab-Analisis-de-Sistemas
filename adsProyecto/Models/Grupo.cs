@@ -7,7 +7,7 @@ namespace adsProyecto.Models
     [PrimaryKey(nameof(IdGrupo))]
     public class Grupo
     {
-        [CustomRequired(ErrorMessage = "El campo es obligatorio")]
+        //[CustomRequired(ErrorMessage = "El campo es obligatorio")]
         public int IdGrupo { get; set; }
         [CustomRequired(ErrorMessage = "El campo es obligatorio")]
         public int IdCarrera { get; set; }

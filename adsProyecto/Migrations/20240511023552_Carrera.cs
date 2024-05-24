@@ -11,7 +11,7 @@ namespace adsProyecto.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Carreara",
+                name: "Carrera",
                 columns: table => new
                 {
                     IdCarrera = table.Column<int>(type: "int", nullable: false)
@@ -21,7 +21,7 @@ namespace adsProyecto.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Carreara", x => x.IdCarrera);
+                    table.PrimaryKey("PK_Carrera", x => x.IdCarrera);
                 });
         }
 
@@ -29,7 +29,7 @@ namespace adsProyecto.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Carreara");
+                name: "Carrera");
         }
     }
 }
